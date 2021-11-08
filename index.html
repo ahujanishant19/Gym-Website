@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishu Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(bg.jpg);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 149px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: sans-serif margin: 0px 17px;
+        background-color: black;
+        color: white;
+        padding: 1px 17px;
+        
+        
+        font-size: 20px;
+        cursor: pointer
+    }
+
+    .btn:hover {
+        background-color: rgb(52, 54, 52);
+    }
+
+    .container{
+        /* border: 2px solid #f1f6f1; */
+        margin: 2px 2px;
+        padding: 116px 2px;
+        width: 33%;
+        border-radius: 30px;
+        text-align: center;
+
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 497px;
+        padding: 6px;
+        
+        margin: 20px auto;
+
+    }
+    .container button{
+        display: block;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header"></header>
+    <div class="left">
+        <img src="logo.png" alt="">
+        <div>Nishu Fitness</div>
+        </ul>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <button class="btn">Call us onow</button>
+        <button class="btn">Email Us</button>
+    </div>
+    <div class="container">
+        <h1>Join the best gym of Faridabad</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your phone no">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
